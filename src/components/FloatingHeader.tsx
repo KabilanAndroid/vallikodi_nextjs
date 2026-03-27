@@ -49,7 +49,7 @@ export const FloatingHeader = () => {
         <div className="pl-10 pr-10 pt-5 pb-5">
             <div className="flex w-full h-20 bg-amber-50 rounded-4xl items-center justify-between p-10">
                 <div className="flex flex-1 justify-between items-center">
-                    <div >
+                    <div>
                         <img src={"https://vallikodivanniarmatrimonial.in/frontend/img/vallikodi_new_logo.png"}></img>
                     </div>
                     <div className="flex flex-row gap-5">

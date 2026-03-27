@@ -15,15 +15,17 @@ const CreateProfileCard = () => {
     return (
         <div className="p-10">
             <div className="flex justify-center gap-20 flex-col lg:flex-row  md:flex-col sm:flex-col xl:flex-row 2xl:flex-row">
-                <div className="flex justify-center flex-col">
-                    <p className="text-4xl">வள்ளிக்கொடி வன்னியர் குல சத்திரியர்</p>
-                    <p className="text-4xl">திருமண தகவல் மையத்திற்கு, உங்களை</p>
-                    <p className="text-4xl">அன்புடன் வரவேற்கிறோம்.</p>
+                <div className="flex justify-center items-center flex-col">
+                    <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+                        வள்ளிக்கொடி வன்னியர் குல சத்திரியர்
+                    </p>
+                    <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">திருமண தகவல் மையத்திற்கு, உங்களை</p>
+                    <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">அன்புடன் வரவேற்கிறோம்.</p>
                 </div>
                 <div className=" bg-amber-50 rounded-4xl p-10">
                     <div className="flex justify-center flex-col items-center">
-                        <h1 className="text-4xl">Create a Profile</h1>
-                        <h1 className="text-4xl">Find your perfect match</h1>
+                        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">Create a Profile</h1>
+                        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">Find your perfect match</h1>
                     </div>
                     <div className="flex  gap-4 pt-4 pb-4 flex-col lg:flex-row  md:flex-col sm:flex-col xl:flex-row 2xl:flex-row">
                         <div className="flex flex-1">
