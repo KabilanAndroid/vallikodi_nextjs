@@ -5,7 +5,7 @@ import { Header } from "@/src/components/Header";
 
 export default function Home() {
   return (
-    <div className="w-full h-full bg-amber-900">
+    <div className="w-full h-full bg-secondary">
       <Header/>
       <FloatingHeader/>
       <CreateProfileCard/>
