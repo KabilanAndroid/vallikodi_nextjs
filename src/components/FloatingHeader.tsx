@@ -53,17 +53,17 @@ export const FloatingHeader = () => {
                         <img src={"https://vallikodivanniarmatrimonial.in/frontend/img/vallikodi_new_logo.png"}></img>
                     </div>
                     <div className="flex flex-row gap-5">
-                        <Link href="/home">Home</Link>
-                        <Link href="/about">About</Link>
-                        <Link href="/gallery">Gallery</Link>
+                        <Link className="text-xl" href="/home">Home</Link>
+                        <Link className="text-xl" href="/about">About</Link>
+                        <Link className="text-xl" href="/gallery">Gallery</Link>
                     </div>
                     <div>
-                        <button className="relative overflow-hidden px-6 py-2 border border-primary text-primary rounded-4xl group" onClick={handleClickOpen}>
-                            <span className="relative z-10 group-hover:text-white transition">
+                        <button className="relative overflow-hidden px-6 py-2 border border-primary text-primary  group" onClick={handleClickOpen}>
+                            <span className="relative z-10 text-c group-hover:text-white transition">
                                 Login
                             </span>
 
-                            <span className="absolute inset-0 bg-primary -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></span>
+                            <span className="absolute inset-0 bg-brand-primary -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></span>
                         </button>
                     </div>
                 </div>
@@ -115,14 +115,14 @@ export const FloatingHeader = () => {
                             <div className="relative overflow-hidden px-6 py-2 border border-secondary text-secondary rounded-4xl group w-100 items-center justify-center" >
                                 <div className=" flex items-center justify-center">
                                     <h1 className=" text-xl pt-1 pb-1 relative z-10 group-hover:text-white transition items-center justify-center">Login</h1>
-                                    <span className=" items-center justify-center absolute inset-0 bg-secondary -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></span>
+                                    <span className=" items-center justify-center absolute inset-0 bg-brand-secondary -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></span>
                                 </div>
                             </div>
                             <h1>OR</h1>
                             <div className="relative overflow-hidden px-6 py-2 border border-primary text-primary rounded-4xl group w-100 items-center justify-center" >
                                 <div className=" flex items-center justify-center">
                                     <h1 className=" text-xl pt-1 pb-1 relative z-10 group-hover:text-white transition items-center justify-center">Register</h1>
-                                    <span className=" items-center justify-center absolute inset-0 bg-primary -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></span>
+                                    <span className=" items-center justify-center absolute inset-0 bg-brand-primary -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></span>
                                 </div>
                             </div>
                         </div>
