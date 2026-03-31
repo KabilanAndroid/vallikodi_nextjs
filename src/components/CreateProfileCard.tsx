@@ -98,6 +98,16 @@ const CreateProfileCard = () => {
                             {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
                         </button>
                     </div>
+                    <div className="relative mt-4 overflow-hidden  border border-secondary text-secondary rounded-4xl group w-100 items-center justify-center" >
+
+                        <div className="relative flex items-center  justify-center overflow-hidden group pt-3 pb-3 ">
+                            <p className="text-xl  m-0 relative z-10  group-hover:text-white transition-colors duration-300">
+                                Register
+                            </p>
+                            <span className="absolute inset-0 bg-brand-secondary -translate-x-full group-hover:translate-x-0 transition-transform duration-300 z-0" />
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
