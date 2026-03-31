@@ -1,3 +1,4 @@
+import About from "@/src/components/About";
 import CountView from "@/src/components/countView";
 import CreateProfileCard from "@/src/components/CreateProfileCard";
 import { FloatingHeader } from "@/src/components/FloatingHeader";
@@ -15,6 +16,9 @@ export default function Home() {
         <CountView />
         <LookingForComp />
       </div>
+      <CountView />
+      <LookingForComp />
+      <About/>
     </div>
 
   )

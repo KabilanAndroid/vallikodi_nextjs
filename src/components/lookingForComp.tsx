@@ -26,6 +26,12 @@ const LookingForComp = () => {
           <Button variant="contained" color="warning" className='rounded-2xl bg-yellow-300 m-auto mb-0' >Search</Button>
         </form>
       </div>
+    <div  className='flex min-h-20 w-full bg-amber-800' >
+        <div>
+            {/* <div className='bg-amber-600 h-100 w-full'>
+
+            </div> */}
+        </div>
     </div>
   )
 }
