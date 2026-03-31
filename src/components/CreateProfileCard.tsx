@@ -104,7 +104,7 @@ const CreateProfileCard = () => {
                             <p className="text-xl  m-0 relative z-10  group-hover:text-white transition-colors duration-300">
                                 Register
                             </p>
-                            <span className="absolute inset-0 bg-brand-secondary -translate-x-full group-hover:translate-x-0 transition-transform duration-300 z-0" />
+                            <span className="absolute inset-0  bg-brand-secondary -translate-x-full group-hover:translate-x-0 transition-transform duration-300 z-0" />
                         </div>
 
                     </div>
