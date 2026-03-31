@@ -8,14 +8,13 @@ import LookingForComp from "@/src/components/lookingForComp";
 export default function Home() {
   return (
     <div >
-      <div className="w-full h-full bg-brand-secondary">
+      <div className="w-full h-full bg-amber-50">
         <Header />
         <FloatingHeader />
         <CreateProfileCard />
+        <CountView />
+        <LookingForComp />
       </div>
-
-      <CountView />
-      <LookingForComp />
     </div>
 
   )
