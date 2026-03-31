@@ -24,8 +24,8 @@ const CreateProfileCard = () => {
                 </div>
                 <div className=" bg-amber-50 rounded-4xl p-10">
                     <div className="flex justify-center flex-col items-center">
-                        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">Create a Profile</h1>
-                        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">Find your perfect match</h1>
+                        <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">Create a Profile</p>
+                        <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">Find your perfect match</p>
                     </div>
                     <div className="flex  gap-4 pt-4 pb-4 flex-col lg:flex-row  md:flex-col sm:flex-col xl:flex-row 2xl:flex-row">
                         <div className="flex flex-1">
@@ -49,7 +49,7 @@ const CreateProfileCard = () => {
                     </div>
                     <div className="flex  gap-7 pt-1 pb-1 flex-col lg:flex-row  md:flex-col sm:flex-col xl:flex-row 2xl:flex-row">
                         <div className="flex flex-col  pt-0 ">
-                            <h1 className="text-2xl">Gender</h1>
+                            <p className="text-2xl">Gender</p>
                             <RadioGroup
                                 row
                                 aria-labelledby="demo-row-radio-buttons-group-label"
@@ -72,7 +72,7 @@ const CreateProfileCard = () => {
 
                         </div>
                         <div className="flex flex-col pt-0 gap-1">
-                            <h1 className="text-2xl">Mobile number</h1>
+                            <p className="text-2xl">Mobile number</p>
                             <input
                                 type="text"
                                 value={""}

@@ -6,16 +6,6 @@ import { useEffect } from "react"
 import axios from 'axios';
 
 const Home = () => {
-  // useEffect(() => {
-    // fetch('http://172.21.4.154:8080/api/login').then((res) => {
-    //   res.json()
-    // })
-    //   .then((data) => {
-    //     console.log("data:", data)
-    //   })
-
-    
-  // }, [])
 
   const handleapi =async()=>{
     try{
