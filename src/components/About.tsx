@@ -1,9 +1,9 @@
 const About = () => {
     return (
-        <div className="flex bg-white p-10 gap-10" >
+        <div className="flex bg-white p-10 pb-30 gap-10" >
             <div className="flex flex-1 w-1/2 relative">
                 <img className="h-auto max-w-5/6" src={"http://172.21.4.102/vallikodi/frontend/img/about1.png"} ></img>
-                <img className="absolute h-auto w-1/2 -bottom-20 right-10" src={"	http://172.21.4.102/vallikodi/frontend/img/about2.png"} ></img>
+                <img className="absolute h-auto w-1/2 -bottom-20 right-10 rounded-4xl border-4 border-amber-50" src={"	http://172.21.4.102/vallikodi/frontend/img/about2.png"} ></img>
             </div>
             <div className="flex flex-1 w-1/2 flex-col" >
                 <p className="text-orange-bold mb-6 text-6xl text-orange-600">About Vallikodi</p>
