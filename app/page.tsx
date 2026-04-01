@@ -2,6 +2,7 @@ import About from "@/src/components/About";
 import CountView from "@/src/components/countView";
 import CreateProfileCard from "@/src/components/CreateProfileCard";
 import { FloatingHeader } from "@/src/components/FloatingHeader";
+import Footer from "@/src/components/Footer";
 import { Header } from "@/src/components/Header";
 import LookingForComp from "@/src/components/lookingForComp";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <CountView />
       <LookingForComp />
       <About/>
+      <Footer/>
     </div>
 
   )
