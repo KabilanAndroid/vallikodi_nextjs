@@ -48,18 +48,18 @@ export const FloatingHeader = () => {
     };
     return (
         <div className="pl-10 pr-1 pt-5 pb-5">
-            <div className="flex w-full h-20 bg-amber-50 rounded-4xl items-center justify-between p-10">
-                <div className="flex flex-1 justify-between items-center">
+            <div className="flex w-full bg-amber-50 rounded-4xl items-center justify-between px-10 py-4">
+                <div className="flex flex-1 flex-wrap justify-between items-center gap-4">
                     <div>
                         <img src={"https://vallikodivanniarmatrimonial.in/frontend/img/vallikodi_new_logo.png"}></img>
                     </div>
-                    <div className="flex flex-row gap-5">
+                    <div className="hidden lg:flex flex-row gap-5">
                         <Link className="text-xl" href="/home">Home</Link>
                         <Link className="text-xl" href="/about">About</Link>
                         <Link className="text-xl" href="/gallery">Gallery</Link>
                     </div>
                     <div>
-                        <button className="relative overflow-hidden px-6 py-2 border border-primary text-primary  group" onClick={handleClickOpen}>
+                        <button className="relative overflow-hidden md:px-6 md:py-2 px-3 py-2 border border-primary text-primary  group rounded-3xl" onClick={handleClickOpen}>
                             <span className="relative z-10  text-c group-hover:text-white transition">
                                 Login
                             </span>
@@ -68,13 +68,13 @@ export const FloatingHeader = () => {
                         </button>
                     </div>
                 </div>
-                <LoginDialogModel 
-                open={open} 
-                handleClose={handleClose} 
-                showPassword={showPassword} 
-                handleClickShowPassword={handleClickShowPassword} 
-                handleMouseDownPassword={handleMouseDownPassword} 
-                handleMouseUpPassword={handleMouseUpPassword }/>
+                <LoginDialogModel
+                    open={open}
+                    handleClose={handleClose}
+                    showPassword={showPassword}
+                    handleClickShowPassword={handleClickShowPassword}
+                    handleMouseDownPassword={handleMouseDownPassword}
+                    handleMouseUpPassword={handleMouseUpPassword} />
             </div>
         </div>
     )

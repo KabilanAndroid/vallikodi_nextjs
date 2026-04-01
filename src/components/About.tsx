@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <div className="flex bg-white p-10 gap-10" >
-            <div className="flex flex-1 w-1/2 relative">
+            <div className="flex flex-1 w-1/2 relative h-full">
                 <img className="h-auto max-w-5/6" src={"http://172.21.4.102/vallikodi/frontend/img/about1.png"} ></img>
                 <img className="absolute h-auto w-1/2 -bottom-20 right-10" src={"	http://172.21.4.102/vallikodi/frontend/img/about2.png"} ></img>
             </div>
